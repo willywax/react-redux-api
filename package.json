@@ -10,8 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "prestart": "node src/createMockDb.js",
-    "start": "node src/apiServer.js"
+    "prestart:api": "node src/createMockDb.js",
+    "start:api": "node src/apiServer.js"
   },
   "author": "",
   "license": "ISC"
